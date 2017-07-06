@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import Songs from './Songs';
 import axios from 'axios';
-
+import ReactHTMLEmail from 'react-html-email';
+// import { Email, Item, Span, A, renderEmail } from 'react-html-email';
+// import NewEmail from './Email';
 
 export default class SingleAlbum extends Component {
   constructor(){
